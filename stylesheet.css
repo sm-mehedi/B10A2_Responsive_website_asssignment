@@ -85,6 +85,9 @@ color:#E6533C;
 
 
 }
+.mobile-nav-image {
+    display: none;
+}
 /* nav bar work  */
 
 /* banner  */
@@ -105,6 +108,7 @@ color:#E6533C;
     font-weight: 900;
 
 }
+
 .span1{                                                                                                    
     font-family: 'Miama', sans-serif;
     font-size: 150px;
@@ -167,7 +171,29 @@ color:#E6533C;
    
 
 }
-/* button are done using inline css  */
+/* button  */
+.join-club-btn {
+    width: 40%;
+    height: 200%;
+    border-radius: 42px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: #E6533C;
+    border: transparent;
+    font-size: 16px;
+}
+
+.download-app-btn {
+    width: 40%;
+    height: 200%;
+    border-radius: 42px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: black;
+    border: transparent;
+    font-size: 16px;
+    border: 0.5px solid;
+}
 
 /* footer */
 .footer {
@@ -224,6 +250,54 @@ color:#E6533C;
 
 /* responsive for phone  */
 @media (max-width: 576px) {
+
+    .header-container {
+        display: flex;
+        justify-content: space-between; /* Align items to the left and right */
+        align-items: center; /* Center items vertically */
+        padding: 30px; /* Adjust as needed */
+    }
+
+    /* Hamburger menu icon styles */
+    .mobile-nav-icon {
+        display: inline-block;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+        position: relative;
+    }
+
+    .mobile-nav-icon div {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    /* Logo styles */
+    .logo {
+        margin-top: 0; /* Adjust as needed */
+        display: inline;
+    }
+
+    /* Hide the navigation bar */
+    .navbar {
+        display: none; /* Hide the navbar */
+    }
+
+
+    .mobile-nav-image {
+        display: inline; 
+        width: 50px; 
+        height: 50px; 
+        transform: translateX(350px);
+        transform: translateY(-30px);
+    }
+    .logo{
+        margin-top: 52px;
+        display: inline;
+    }
     .footer-upper {
         flex-direction: column;
     }
@@ -236,4 +310,83 @@ color:#E6533C;
     .footer-section:last-child {
         margin-bottom: 0;
     }
+    .parent {
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+
+    .writing p {
+        font-size: 48px;
+    }
+    .writing{
+        transform: translateY(-50px);
+    }
+.banner-nav{
+width: 100%;
+height: 1365px;
+gap: 0px;
+opacity: 0px; 
+
+    }
+    .nav-items{
+        display: none;
+    }
+
+    .Movable_div1{
+    
+        
+        top: 150%;
+        left: 55%; 
+        width: 25%;
+        height: 7%;
+        
+       
+    
+}
+
+.Movable_div1 p{
+    font-size: 7px;
+
+}
+.circle{
+    height: 70%;
+    width: 100%;
+   
+}
+
+.Movable_div2{
+   
+ 
+    top: 190%;
+    left: 7%; 
+    width: 25%;
+    height: 5%;
+   
+   
+}
+.Movable_div2 p{
+    font-size: 7px;
+
+}
+
+
+.req{
+    margin-bottom: 90px;
+}
+.picture_banner{
+    transform: translateY(15px);
+     
+ 
+ }
+ .join-club-btn{
+   transform: translateY(50px);
+    height: 50px;
+ }
+ .download-app-btn{
+    transform: translateY(50px);
+    height: 50px;
+ }
+    
+
+    
 }
