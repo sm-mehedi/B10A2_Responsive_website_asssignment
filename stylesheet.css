@@ -8,6 +8,11 @@
   font-style: normal;
 }
 
+.miami-font {
+    font-family: "Miami", sans-serif; 
+}
+                
+
 /* fonts  */
 
 
@@ -38,7 +43,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2.97%;
+    
     padding: 2.97% 9.90% 0px 9.90%; /* top right bottom left */
 }
 .logo{
@@ -82,4 +87,84 @@ color:#E6533C;
 }
 /* nav bar work  */
 
+/* banner  */
+.parent{
+    display: flex;
+    flex-direction: row;
+    padding: 0% 9.90% 0px 9.90%;
+    justify-content: space-between;
+}
+
+.writing{
+    display: flex;
+    flex-direction: column;
+}
+.writing p{
+    color: #FFFFFF;
+    font-size: 78px;
+    font-weight: 900;
+
+}
+.span1{                                                                                                    font-family: 'Miama', sans-serif;
+    font-size: 150px;
+    font-weight: 100;
+}
+
+.span2{
+    font-family: "Inter", sans-serif;
+    
+}
+
+.picture_banner{
+   transform: translateY(45px);
+    
+
+}
+.Movable_div1{
+    
+        position: absolute;
+        top: 34%;
+        left: 80%; 
+        width: 9%;
+        height: 11%;
+        background: #FFFFFF1A;
+        
+        color: white;
+        border: 1px solid #FFFFFF1A;
+        
+      align-content: center;
+      border-radius: 10px;
+      padding: 19px;
+       
+    
+}
+.circle{
+    height: 50%;
+    width: 30%;
+    border-radius: 100%;
+    background-color: #E6533C;
+}
+
+.Movable_div2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 70%;
+    left: 62%; 
+    width: 9%;
+    height: 11%;
+    background: #FFFFFF1A;
+    
+    background: #3030308A;
+    border: 1px solid #FFFFFF1A;    
+  align-content: center;
+  border-radius: 10px;
+  padding: 19px;
+  align-items: center;
+  gap: 10%;
+  color: white;
+   
+
+}
+/* button are done using inline css  */
 
