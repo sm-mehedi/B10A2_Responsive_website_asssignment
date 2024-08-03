@@ -30,9 +30,7 @@ body{
 
 /* nav bar work  */
 .banner-nav {
-    /* background: linear-gradient
-
-    (180deg, #111111 0%, rgba(119, 119, 119, 0) 100%); */
+    
     background: linear-gradient(to bottom, #000000, #434343);
     height: 715px;
     width: 100%;
@@ -44,7 +42,7 @@ body{
     justify-content: space-between;
     align-items: center;
     
-    padding: 2.97% 9.90% 0px 9.90%; /* top right bottom left */
+    padding: 2.97% 9.90% 0px 9.90%; 
 }
 .logo{
 font-family: Inter;
@@ -228,10 +226,10 @@ text-align: center;
 }
 
 .section1 div img {
-    width: 200px; /* Set width */
-    height: 180px; /* Set height */
-    border-radius: 100%; /* Make the image round */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    width: 200px; 
+    height: 180px; 
+    border-radius: 100%; 
+    object-fit: cover;
   }
 
   .section2 {
