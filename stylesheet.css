@@ -396,6 +396,7 @@ form {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    filter: brightness(70%);
 }
 
 .caption {
@@ -474,6 +475,23 @@ form {
 .logo1{
     display: none;
 }
+.prob1{
+    display: none;
+}
+.prob2{
+    display: block;
+}
+.BMI1{
+    display: block;
+}
+.BMI2{
+    display: none;
+}
+.custom{
+    background-color: #E6533C;
+    border-radius: 15px;
+    margin-left: 5px;
+}
 
 
 /* footer */
@@ -495,12 +513,12 @@ form {
 
     .header-container {
         display: flex;
-        justify-content: space-between; /* Align items to the left and right */
-        align-items: center; /* Center items vertically */
-        padding: 30px; /* Adjust as needed */
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 30px;
     }
 
-    /* Hamburger menu icon styles */
+    
     .mobile-nav-icon {
         display: inline-block;
         cursor: pointer;
@@ -517,15 +535,15 @@ form {
         transition: 0.4s;
     }
 
-    /* Logo styles */
+    
     .logo {
-        margin-top: 0; /* Adjust as needed */
+        margin-top: 0; 
         display: inline;
     }
 
-    /* Hide the navigation bar */
+   
     .navbar {
-        display: none; /* Hide the navbar */
+        display: none; 
     }
 
 
@@ -565,7 +583,7 @@ form {
     }
 .banner-nav{
 width: 100%;
-height: 1365px;
+height: 1313px;
 gap: 0px;
 opacity: 0px; 
 
@@ -628,7 +646,80 @@ opacity: 0px;
     transform: translateY(50px);
     height: 50px;
  }
-    
+ /* her */
+ .parent-div1 {
+    padding: 0 10px; 
+    width: 425.6px;
+    align-self: center;
+    transform: translateX(-195px);
 
+}
+.child-div {
+    flex-direction: column; 
+    align-items: center; 
+}
+.image-container {
+    width: 100%; 
+    margin: 10px 0; 
+}
+
+#problemimage{
+    width: 300px;
+}
+.parent-div{
+    flex-direction: column;
+}
+.section2 {
+    width: 385px; 
+    height: 700px; 
+    flex-direction: column;
+    transform: translateX(10px);
+   
+   
+   
+
+  }
+  .section2 .picture1{
+    transform: translateY(-110px);
+   
+  }
+
+
+.section1 {
+    flex-direction: column;
+    margin-left: -140px;
+}
+
+.section1 > div {
+    width: 100%; 
+    margin: 10px 0; 
+}
+
+.section1 img {
+    width: 80px; 
+    height: 80px; 
+}
+.section0{
+    margin-left: -8px;
+
+}
+.section3{
+    margin-left: -570px;
     
+}
+.prob1{
+    display: block;
+}
+.prob2{
+    display: none;
+}
+.BMI1{
+    display: none;
+}
+.BMI2{
+    display: block;
+}
+
+
+
 }
