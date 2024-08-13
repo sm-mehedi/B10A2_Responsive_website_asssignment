@@ -31,4 +31,4 @@ The project is a fitness club website that showcases various features such as wo
    Go to the cloned repository folder at top of search bar type cmd in cmd type or copy the following command line
      ```bash
             code .
-3. use live server or live preview extension for viewing the site ( For VS Code )
+3. Use live server or live preview extension for viewing the site ( For VS Code )
