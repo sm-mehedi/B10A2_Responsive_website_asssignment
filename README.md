@@ -26,3 +26,9 @@ The project is a fitness club website that showcases various features such as wo
 1. Clone the repository:
    ```bash
           https://github.com/sm-mehedi/B10A2_Responsive_website_asssignment
+2. Open VS Code or any suitable IDE
+   For VS Code
+   Go to the cloned repository folder at top of search bar type cmd in cmd type or copy the following command line
+     ```bash
+            code .
+3. Use live server or live preview extension for viewing the site ( For VS Code )
