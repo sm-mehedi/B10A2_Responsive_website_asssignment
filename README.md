@@ -25,4 +25,4 @@ The project is a fitness club website that showcases various features such as wo
 
 1. Clone the repository:
    ```bash
-https://github.com/sm-mehedi/B10A2_Responsive_website_asssignment
+          https://github.com/sm-mehedi/B10A2_Responsive_website_asssignment
