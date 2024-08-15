@@ -33,6 +33,7 @@ body{
 
 
 /* nav bar work  */
+
 .banner-nav {
     
     background: linear-gradient(to bottom, #000000, #434343);
@@ -284,6 +285,9 @@ border-color: transparent;
     text-align: center;
 
   }
+  /* .section1{
+    transform: translateX(50px);
+} */
  /* start  */
  .parent-div {
     display: flex;
@@ -670,6 +674,7 @@ opacity: 0px;
 }
 .parent-div{
     flex-direction: column;
+    justify-content: space-between;
 }
 .section2 {
     width: 385px; 
